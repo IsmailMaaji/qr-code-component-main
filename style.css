@@ -1,0 +1,114 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(212, 45%, 89%);
+    --Grayish-blue: hsl(220, 15%, 55%);
+    --Dark-blue: hsl(218, 44%, 22%);
+
+    --ff-normal:'Outfit', sans-serif;
+    --fw-regular:400;
+    --fw-bold:700;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+    3. Allow percentage-based heights in the application
+  */
+  html, body {
+    height: 100%;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  body{
+    background-color: var(--Light-gray);
+    font-family: var(--ff-normal);
+    display: grid;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    margin: 1.25rem;
+
+  }
+  .qr_code{
+    --content-padding:1.5rem;
+    --content-spacing:1rem;
+    background-color: var(--White);
+    padding: 0.95rem ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    display: grid;
+    overflow: hidden;
+    max-width: 500px;
+  }
+  @media(min-width: 500px){
+    .qr_code{
+      
+      width: 350px;
+      
+        --content-padding:1rem;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        place-content: center;
+        overflow: hidden;
+
+    }
+    img{
+      width: 350px;
+    }
+}
+  .qr_para{
+    color: var(--Grayish-blue);
+    justify-content: center;
+    text-align: center;
+  }
+  .qr_content{
+    display: grid;
+    gap: var(--content-spacing);
+    padding: var(--content-padding);
+  }
+  .title{
+    color: var(--Dark-blue);
+    justify-content: center;
+    text-align: center;
+  }
+  img{
+    border-radius: 1rem;
+  }
