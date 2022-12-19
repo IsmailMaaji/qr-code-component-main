@@ -5,7 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 -
-- [Author](#ismailmaaji)
+- (#ismailmaaji)
 
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
@@ -83,9 +83,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
+- Frontend Mentor - [@IsmailMaaji](https://www.frontendmentor.io/profile/yourusername)
+
 
 **Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
